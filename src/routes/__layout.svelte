@@ -1,9 +1,14 @@
 <header>
+	<p>Relative</p>
 	<nav>
-		<!-- note: it should be "/" -->
 		<a href=".">Home</a>
-		<!-- note: it should be "/about" -->
 		<a href="about">About</a>
+	</nav>
+
+	<p>Absolute</p>
+	<nav>
+		<a href="/">Home</a>
+		<a href="/about">About</a>
 	</nav>
 </header>
 

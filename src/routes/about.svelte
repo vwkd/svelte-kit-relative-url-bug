@@ -4,12 +4,14 @@
 
 <h1>About</h1>
 
-<!-- note: it should be "/svelte-logo.svg" -->
+<p>svelte-logo.svg</p>
 <img src="svelte-logo.svg" alt="Real nice svelte logo" />
+
+<p>/svelte-logo.svg</p>
+<img src="/svelte-logo.svg" alt="Real nice svelte logo" />
 
 <style>
 	img {
-		inline-size: 50vmin;
-		max-inline-size: 300px;
+		max-inline-size: 50px;
 	}
 </style>
