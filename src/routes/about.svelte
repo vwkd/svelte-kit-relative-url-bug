@@ -5,13 +5,7 @@
 <h1>About</h1>
 
 <p>svelte-logo.svg</p>
-<img src="svelte-logo.svg" alt="Real nice svelte logo" />
+<img src="svelte-logo.svg" alt="Real nice svelte logo" width="50" />
 
 <p>/svelte-logo.svg</p>
-<img src="/svelte-logo.svg" alt="Real nice svelte logo" />
-
-<style>
-	img {
-		max-inline-size: 50px;
-	}
-</style>
+<img src="/svelte-logo.svg" alt="Real nice svelte logo" width="50" />
