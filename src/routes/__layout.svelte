@@ -1,11 +1,11 @@
 <header>
-	<p>Relative</p>
+	<p>Relative ❌</p>
 	<nav>
 		<a href=".">Home</a>
 		<a href="about">About</a>
 	</nav>
 
-	<p>Absolute</p>
+	<p>Absolute ✅</p>
 	<nav>
 		<a href="/">Home</a>
 		<a href="/about">About</a>
