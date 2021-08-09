@@ -2,8 +2,9 @@
   "type": "module",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "build": "rm -r docs && svelte-kit build",
+    "preview": "svelte-kit preview",
+    "publish": "npm run build && git add . && git co -m 'publish'"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.11",
